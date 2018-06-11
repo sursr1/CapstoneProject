@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.studentdetails.form.SampleVaadinApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.197 sec <<< FAILURE! - in com.studentdetails.form.SampleVaadinApplicationTests
+shouldFindTwoBaurerStudents(com.studentdetails.form.SampleVaadinApplicationTests)  Time elapsed: 0.033 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<5> but was:<[]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.studentdetails.form.SampleVaadinApplicationTests.shouldFindTwoBaurerStudents(SampleVaadinApplicationTests.java:35)
+

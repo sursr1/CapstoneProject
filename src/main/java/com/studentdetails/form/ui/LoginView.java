@@ -8,6 +8,7 @@ import com.vaadin.data.Binder;
 import com.vaadin.navigator.View;
 import com.vaadin.navigator.ViewChangeListener.ViewChangeEvent;
 import com.vaadin.spring.annotation.SpringView;
+import com.vaadin.ui.Alignment;
 import com.vaadin.ui.Button;
 import com.vaadin.ui.Button.ClickEvent;
 import com.vaadin.ui.Button.ClickListener;
@@ -49,12 +50,19 @@ public class LoginView extends CustomComponent implements View{
 		loginPanel.setSizeUndefined();
 		loginPanel.setWidth(null);
 		
+		
 		// Create a layout inside the panel
-		final FormLayout loginLayout = new FormLayout();
+		 FormLayout loginLayout = new FormLayout();
 		// Add some components inside the layout
 		loginLayout.addComponent(userName);
 		loginLayout.addComponent(password);
 		loginLayout.addComponent(login);
+		//setComponentAlignment(loginLayout, Alignment.MIDDLE_CENTER);
+		loginLayout.setComponentAlignment(userName, Alignment.MIDDLE_CENTER);
+		loginLayout.setComponentAlignment(password, Alignment.MIDDLE_CENTER);
+		loginLayout.setComponentAlignment(login, Alignment.MIDDLE_CENTER);
+
+
 		
 		setSizeUndefined();
 		// Have some margin around it.

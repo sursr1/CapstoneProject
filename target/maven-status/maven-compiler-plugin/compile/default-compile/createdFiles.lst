@@ -1,0 +1,12 @@
+com/studentdetails/form/model/User.class
+com/studentdetails/form/ui/LoginView$1.class
+com/studentdetails/form/repo/StudentRepository.class
+com/studentdetails/form/ui/LoginView.class
+com/studentdetails/form/ui/VaadinUI.class
+com/studentdetails/form/model/Student.class
+com/studentdetails/form/ui/StudentEditor.class
+com/studentdetails/form/repo/UserRepository.class
+com/studentdetails/form/ui/StudentEditor$ChangeHandler.class
+com/studentdetails/form/ui/MainView.class
+com/studentdetails/form/ServletInitializer.class
+com/studentdetails/form/Application.class

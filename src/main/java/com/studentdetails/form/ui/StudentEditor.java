@@ -11,6 +11,7 @@ import com.vaadin.navigator.ViewChangeListener.ViewChangeEvent;
 import com.vaadin.server.FontAwesome;
 import com.vaadin.spring.annotation.SpringComponent;
 import com.vaadin.spring.annotation.UIScope;
+import com.vaadin.ui.Alignment;
 import com.vaadin.ui.Button;
 import com.vaadin.ui.CssLayout;
 import com.vaadin.ui.TextField;
@@ -36,6 +37,7 @@ public class StudentEditor extends VerticalLayout implements View{
 	public TextField lastName = new TextField("Last name");
 	public TextField phone = new TextField("Phone");
 	public TextField eMail = new TextField("E mail");
+	
 	//public TextField birthDate = new TextField("DOB");
 	//public DateField birthDate = new DateField("Birth date");
 
@@ -60,6 +62,8 @@ public class StudentEditor extends VerticalLayout implements View{
 		// Configure and style components
 		setSpacing(true);
 		actions.setStyleName(ValoTheme.LAYOUT_COMPONENT_GROUP);
+	//	setComponentAlignment(actions, Alignment.MIDDLE_CENTER);
+		
 		save.setStyleName(ValoTheme.BUTTON_PRIMARY);
 		save.setClickShortcut(ShortcutAction.KeyCode.ENTER);
 
